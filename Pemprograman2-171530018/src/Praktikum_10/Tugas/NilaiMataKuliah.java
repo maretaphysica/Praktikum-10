@@ -21,10 +21,6 @@ public class NilaiMataKuliah extends Matakuliah {
    
      Mahasiswa mhs;
    
-
-    public NilaiMataKuliah() {     
-       
-    }
     public Double hitungNilai(){
         this.bobot_uts = 0.3;
         this.bobot_uas=0.3;
